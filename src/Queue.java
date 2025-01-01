@@ -28,7 +28,6 @@ public class Queue {
     
     public Node dequeue(){
         if(front == null){
-            System.out.println("Queue is empty");
             return null;
         }
         Node temp = front;

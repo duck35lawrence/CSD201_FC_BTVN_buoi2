@@ -23,7 +23,6 @@ public class Stack {
     
     public Node pop(){
         if(top == null){
-            System.out.println("Stack is empty");
             return null;
         }
         Node temp = top;
